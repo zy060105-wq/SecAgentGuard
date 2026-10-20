@@ -1,0 +1,12 @@
+services:
+  sec-agent:
+    build: .
+    env_file: .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./logs:/app/logs
+    tty: true
+    stdin_open: true
+
+
+

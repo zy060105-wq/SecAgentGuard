@@ -1,0 +1,8 @@
+openai
+python-dotenv
+langchain
+langgraph
+langchain-chroma
+langchain-community
+sentence-transformers
+pydantic
